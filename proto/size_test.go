@@ -1,7 +1,7 @@
 // Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2012 The Go Authors.  All rights reserved.
-// http://code.google.com/p/goprotobuf/
+// http://github.com/smithfox/goprotobuf/
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -36,7 +36,7 @@ import (
 	"testing"
 
 	pb "./testdata"
-	. "code.google.com/p/goprotobuf/proto"
+	. "github.com/smithfox/goprotobuf/proto"
 )
 
 var messageWithExtension1 = &pb.MyMessage{Count: Int32(7)}
