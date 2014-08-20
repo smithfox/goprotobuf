@@ -1,7 +1,7 @@
 // Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2010 The Go Authors.  All rights reserved.
-// http://github.com/smithfox/goprotobuf/
+// http://code.google.com/p/goprotobuf/
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -37,7 +37,7 @@ import (
 	"testing"
 
 	. "./testdata"
-	. "github.com/smithfox/goprotobuf/proto"
+	. "code.google.com/p/goprotobuf/proto"
 )
 
 type UnmarshalTextTest struct {

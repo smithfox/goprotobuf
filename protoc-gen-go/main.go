@@ -1,7 +1,7 @@
 // Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2010 The Go Authors.  All rights reserved.
-// http://github.com/smithfox/goprotobuf/
+// http://code.google.com/p/goprotobuf/
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -40,11 +40,11 @@
 package main
 
 import (
-	// "fmt"
-	"github.com/smithfox/goprotobuf/proto"
-	"github.com/smithfox/goprotobuf/protoc-gen-go/generator"
 	"io/ioutil"
 	"os"
+
+	"code.google.com/p/goprotobuf/proto"
+	"code.google.com/p/goprotobuf/protoc-gen-go/generator"
 )
 
 func main() {
@@ -57,8 +57,6 @@ func main() {
 	if err != nil {
 		g.Error(err, "reading input")
 	}
-
-	// fmt.Printf("read stdin data=%s\n", string(data))
 
 	if err := proto.Unmarshal(data, g.Request); err != nil {
 		g.Error(err, "parsing input proto")
